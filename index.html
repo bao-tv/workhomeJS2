@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- bài 1 -->
+    <section class="bai1">
+        <div class="container py-5">
+          <h2>Bài 1: Tính lương</h2>
+          <div class="row">
+              <div class="rol-4">
+                  <div class="form-group mr-4">
+                      <label for="day">Số Ngày Làm:</label>
+                      <input id="day" type="form-control">
+                  </div>
+              </div>
+              <div class="rol-4">
+                  <p>Lương 1 ngày: <span id="salaryOneDay">100000</span> VND</p>
+              </div>
+              
+          </div>
+          <button id="countSalary" class="btn btn-primary">Tính lương</button>
+          <!-- <div class="pt-5"></div> -->
+          <div id="showSalary" style="display: none;" class="mt-3">
+              <h4>Tiền lương của bạn là: <span id="resultSalary"></span></h4>
+          </div>
+        </div>
+    </section>
+    <!-- bài 2 -->
+    <section class="bai2">
+        <div class="container py-5">
+            <h2>Bài 2: Tính giá trị trung bình</h2>
+            <div class="row">
+                <div class="rol">
+                    <div class="form-group mr-4">
+                        <label for="number1">Số 1: </label>
+                        <input id="number1" type="form-control">
+                    </div>
+                </div>
+                <div class="rol">
+                    <div class="form-group mr-4">
+                        <label for="number2">Số 2: </label>
+                        <input id="number2" type="form-control">
+                    </div>
+                </div>
+                <div class="rol">
+                    <div class="form-group mr-4">
+                        <label for="number3">Số 3: </label>
+                        <input id="number3" type="form-control">
+                    </div>
+                </div>
+                <div class="rol">
+                    <div class="form-group mr-4">
+                        <label for="number4">Số 4: </label>
+                        <input id="number4" type="form-control">
+                    </div>
+                </div>
+                <div class="rol">
+                    <div class="form-group mr-4">
+                        <label for="number5">Số 5: </label>
+                        <input id="number5" type="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <button id="countAverage" class="btn btn-primary">Tính giá trị trung bình</button>
+            <div id="showAverage" style="display: none;" class="mt-3">
+                <h4>Giá trị trình bình là: <span id="resultAverage"></span></h4>
+            </div>
+        </div>
+    </section>    
+
+    <!-- bài 3 -->
+    <section class="bai3">
+        <div class="container py-5">
+          <h2>Bài 3: Quy đổi tiền USD sang tiền VND</h2>
+          <div class="row">
+              <div class="rol-4">
+                  <div class="form-group mr-4">
+                      <label for="usd">Số tiền USD:</label>
+                      <input id="usd" type="form-control">
+                  </div>
+              </div>
+              <div class="rol-4">
+                  <p>1 USD= <span id="priceUSD">23500</span> VND</p>
+              </div>
+              
+          </div>
+          <button id="countUsd" class="btn btn-primary">Quy đổi tiền</button>
+          <!-- <div class="pt-5"></div> -->
+          <div id="showUsd" style="display: none;" class="mt-3">
+              <h4>Số tiền quy đổi từ USD sang VND là: <span id="resultUsd"></span></h4>
+          </div>
+        </div>
+    </section>
+
+     <!-- bài 4 -->
+     <section class="bai4">
+        <div class="container py-5">
+          <h2>Bài 4: Tính chu vi, diện tích</h2>
+          <div class="row">
+              <div class="rol-4">
+                  <div class="form-group mr-4">
+                      <label for="dai">Nhập chiều dài:</label>
+                      <input id="dai" type="form-control">
+                  </div>
+              </div>
+              <div class="rol-4">
+                <div class="form-group mr-4">
+                    <label for="rong">Nhập chiều rộng:</label>
+                    <input id="rong" type="form-control">
+                </div>
+              </div>
+              
+          </div>
+          <button id="countCV" class="btn btn-primary">Tính chu vi</button>
+          <!-- <div class="pt-5"></div> -->
+          <div id="showCV" style="display: none;" class="mt-3">
+              <h4>Chu vi là: <span id="resultCV"></span></h4>
+          </div>
+          <button id="countDT" class="btn btn-primary">Tính diện tích</button>
+          <!-- <div class="pt-5"></div> -->
+          <div id="showDT" style="display: none;" class="mt-3">
+              <h4>Diện tích là: <span id="resultDT"></span></h4>
+          </div>
+        </div>
+    </section>
+
+    <!-- bài 5 -->
+    <section class="bai5">
+        <div class="container py-5">
+          <h2>Bài 5: Tính tổng 2 ký số</h2>
+          <div class="row">
+              <div class="rol-4">
+                  <div class="form-group mr-4">
+                      <label for="soNguyen">Nhập số nguyên n: </label>
+                      <input id="soNguyen" type="form-control">
+                  </div>
+              </div>
+              
+          </div>
+          <button id="countTotal" class="btn btn-primary">Tính tổng ký số</button>
+          <!-- <div class="pt-5"></div> -->
+          <div id="showTotal" style="display: none;" class="mt-3">
+              <h4>Tổng ký số là: <span id="resultTotal"></span></h4>
+          </div>
+          
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
